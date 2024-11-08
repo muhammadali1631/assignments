@@ -1,0 +1,29 @@
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+nav{
+    background-color: #020230;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a li{
+    padding: 10px 0;
+
+}
+
+@media screen and (min-width: 780px) {
+    .block{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+}

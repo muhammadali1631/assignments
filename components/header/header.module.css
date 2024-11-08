@@ -1,0 +1,44 @@
+.container{
+    background-color: #020230;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.container .nav{
+    display: none;
+    gap: 20px;
+}
+.container ul a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.container ul a li{
+    list-style: none;
+}
+.menu{
+    font-size: 30px;
+}
+
+.cross{
+    display: none;
+    font-size: 30px;
+}
+
+
+
+@media screen and (min-width: 780px) {
+    .menu{
+        display: none;
+    }
+    .container .nav{
+        display: flex;
+    }
+}
+@media screen and (max-width: 400px) {
+    .container p{
+        display: none;
+    }
+}
