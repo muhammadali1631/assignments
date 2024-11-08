@@ -8,8 +8,8 @@ const About = () => {
       <div className={styles['about-info']}>
         <h2>About Us</h2>
         <p>
-          Words which don't look even slightly believable. If you are going to
-          use a passage of Lorem Ipsum, you need to be sure there isn't anything
+          Words which don&apos;t look even slightly believable. If you are going to
+          use a passage of Lorem Ipsum, you need to be sure there isn&apos;t anything
           embarrassing hidden in the middle of text. All the Lorem Ipsum
           generators on the Internet tend to repeat predefined chunks
         </p>
