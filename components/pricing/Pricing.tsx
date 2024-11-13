@@ -31,7 +31,7 @@ const priceData:priceDataType[] =[
 
 const Pricing = () => {
   return (
-    <div className={styles.pricing} id='#pricing'>
+    <div className={styles.pricing} id='pricing'>
         <h1>Our Pricing</h1>
         <div className={styles.container}>
             {priceData.map((item, index)=>(
